@@ -34,12 +34,12 @@ secondCard.getElementsByTagName("button")[1].addEventListener("click", function(
 });
 
 //Fonctionnalité 5 :
-// document.getElementsByClassName("navbar")[0].addEventListener("click", function(){
-//   if (document.getElementsByTagName("link")[0].rel == "stylesheet")           //if stylesheet is on, we turn it off
-//     document.getElementsByTagName("link")[0].rel = "styleDisabled";
-//   else
-//     document.getElementsByTagName("link")[0].rel = "stylesheet";
-// });;
+document.getElementsByClassName("navbar")[0].addEventListener("click", function(){
+  if (document.getElementsByTagName("link")[0].rel == "stylesheet")           //if stylesheet is on, we turn it off
+    document.getElementsByTagName("link")[0].rel = "styleDisabled";
+  else
+    document.getElementsByTagName("link")[0].rel = "stylesheet";
+});;
 
 // Fonctionnalité 6 :
 let viewButtons = document.getElementsByClassName("btn btn-sm btn-success");

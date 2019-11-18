@@ -8,13 +8,8 @@ document.getElementsByTagName("footer")[0].addEventListener("click", function(){
 
 //fonctionalité 2 : Tel que demande dans le cour (ne marche pas :o)
 
-// document.getElementById("navbarHeader").addEventListener("click",function(){
-//   document.getElementById("navbarHeader").classList.toggle('collapse');
-// });
-
-// Fonctionnalité 2 - BIS :
 document.getElementsByClassName("navbar-toggler")[0].addEventListener("click", function(){
-  document.getElementsByClassName("bg-dark")[0].classList.toggle("collapse");
+  document.getElementById("navbarHeader").classList.toggle("collapse");
 });
 
 //fonctionalité 2-bis:
@@ -39,13 +34,12 @@ secondCard.getElementsByTagName("button")[1].addEventListener("click", function(
 });
 
 //Fonctionnalité 5 :
-document.getElementsByClassName("navbar")[0].addEventListener("click", function(){
-  if (document.getElementsByTagName("link")[0].rel == "stylesheet")           //if stylesheet is on, we turn it off
-    document.getElementsByTagName("link")[0].rel = "styleDisabled";
-  else
-    document.getElementsByTagName("link")[0].rel = "stylesheet";
-
-});;
+// document.getElementsByClassName("navbar")[0].addEventListener("click", function(){
+//   if (document.getElementsByTagName("link")[0].rel == "stylesheet")           //if stylesheet is on, we turn it off
+//     document.getElementsByTagName("link")[0].rel = "styleDisabled";
+//   else
+//     document.getElementsByTagName("link")[0].rel = "stylesheet";
+// });;
 
 // Fonctionnalité 6 :
 let viewButtons = document.getElementsByClassName("btn btn-sm btn-success");

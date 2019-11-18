@@ -3,8 +3,7 @@
 
 ### Notes & Use :
 
->
->
+> il y a un conflit entre les fonctionalités 6 et 9 !! à tester séparément plzz :D
 
 
 ## Projet : Faire une page interactive avec JS
